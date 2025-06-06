@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Mensural.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Mensural.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>M. Se la face ay pale, Kyrie</title>
+            <composer>
+               <persName>Guillaume Dufay</persName>
+            </composer>
+            <respStmt resp="encoder">
+               <persName>Sophie Stremel</persName>
+            </respStmt>
+            <respStmt resp="encoder">
+               <persName>Anna Plaksin</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt/>
+         <sourceDesc>
+            <source>
+               <bibl>
+                  <physLoc>
+                     <repository>Biblioteca Apostolica Vaticana</repository>
+                     <identifier>Capp.Sist.14</identifier>
+                  </physLoc>
+                  <ptr target="https://digi.vatlib.it/view/MSS_Capp.Sist.14" />
+                  <locus>27v-28r</locus>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc xml:id="eytd0r6">
+         <appInfo xml:id="ag9ueuz2">
+            <application xml:id="ajzchk41" enddate="2025-01-10T13:15:02" startdate="2025-01-07T14:11:02" version="1.2.0">
+               <name xml:id="n8knxht1">mei-friend</name>
+               <p xml:id="pnse86h">First edit by mei-friend 1.2.0, 17 December 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music xml:id="mzuej6t2">
+      <body xml:id="bnwr30e1">
+         <mdiv xml:id="mmoi6dv1">
+            <score xml:id="skh3y2x1">
+               <scoreDef xml:id="shrt6e6">
+                  <staffGrp xml:id="s6d8vsb">
+                     <staffDef xml:id="s769qzq2" clef.line="1" clef.shape="C" lines="5" mensur.sign="O" modusmaior="2" modusminor="2" n="1" notationtype="mensural.white" prolatio="2" tempus="3"/>
+                     <staffDef xml:id="saf8ubd" clef.line="3" clef.shape="C" lines="5" mensur.sign="O" modusmaior="2" modusminor="2" n="2" notationtype="mensural.white" prolatio="2" tempus="3">
+                        <label xml:id="l21mf9x2">Contra</label>
+                     </staffDef>
+                     <staffDef xml:id="s0kua3e1" clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="3" notationtype="mensural.white" prolatio="2" tempus="3">
+                        <label xml:id="lr30qsh1">Tenor</label>
+                     </staffDef>
+                     <staffDef xml:id="sxh6ym71" clef.line="3" clef.shape="F" lines="5" mensur.sign="O" modusmaior="2" modusminor="2" n="4" notationtype="mensural.white" prolatio="2" tempus="3">
+                        <label xml:id="ln4ipwk2">Tenor [II]</label>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="sfa44i51">
+                  <staff xml:id="skj1fb61" n="1">
+                     <layer xml:id="l4rg1vg1">
+                        <note xml:id="n8k603v2" dur="semibrevis" num="2" numbase="3" oct="5" pname="c"/>
+                        <dot xml:id="dfifppf1" form="aug"/>
+                        <note xml:id="nvtqkp5" dur="minima" oct="4" pname="b" stem.dir="up"/>
+                        <note xml:id="n4ydjhh" dur="minima" oct="4" pname="a" stem.dir="up"/>
+                        <note xml:id="no9vf7z1" dur="minima" oct="4" pname="g"/>
+                        <barLine xml:id="bo739f6" form="dashed"/>
+                        <note xml:id="nh9mnc1" dur="semibrevis" oct="4" pname="g"/>
+                        <note xml:id="nsdojg8" dur="minima" oct="4" pname="a" stem.dir="up"/>
+                        <note xml:id="n3bi35g" dur="minima" oct="4" pname="g"/>
+                        <note xml:id="n5sqfli2" dur="semibrevis" oct="4" pname="e"/>
+                        <barLine xml:id="bp870vu2" form="dashed"/>
+                        <note xml:id="notueej2" dur="semibrevis" oct="4" pname="d"/>
+                        <rest xml:id="rr56p21" dur="semibrevis"/>
+                        <note xml:id="nj8u5yb" dur="brevis" dur.quality="imperfecta" oct="4" pname="g"/>
+                        <note xml:id="nqspuzm2" dur="minima" oct="4" pname="a" stem.dir="up"/>
+                        <note xml:id="n2el9hl2" dur="minima" oct="4" pname="b" stem.dir="up"/>
+                        <note xml:id="nhi6usl1" dur="semibrevis" num="2" numbase="3" oct="5" pname="c"/>
+                        <dot xml:id="d0kllvq2" form="aug"/>
+                        <note xml:id="nu608lr1" dur="minima" oct="4" pname="a" stem.dir="up"/>
+                        <ligature xml:id="lbgcukg1" form="obliqua">
+                           <note xml:id="n5j2dij1" dur="semibrevis" oct="4" pname="b"/>
+                           <note xml:id="ni3e4mk1" dur="semibrevis" oct="4" pname="g"/>
+                        </ligature>
+                        <barLine xml:id="b3d74o01" form="dashed"/>
+                        <note xml:id="nywyze01" dur="semibrevis" num="2" numbase="3" oct="5" pname="c"/>
+                        <dot xml:id="d1uuvzp1" form="aug"/>
+                        <note xml:id="ngmdqhm1" dur="minima" oct="4" pname="b" stem.dir="up"/>
+                        <note xml:id="n6e09kd" dur="minima" oct="4" pname="b" stem.dir="up"/>
+                        <note xml:id="n3bak94" dur="minima" oct="4" pname="a" stem.dir="up"/>
+                        <barLine xml:id="bot3dzq2" form="dashed"/>
+                     </layer>
+                  </staff>
+                  <staff xml:id="s991ldj2" n="2">
+                     <layer xml:id="looi325">
+                        <ligature xml:id="lpsbi47">
+                           <note xml:id="n81fd3o2" dur="brevis" oct="4" pname="c"/>
+                           <note xml:id="ndv049h1" dur="brevis" dur.quality="imperfecta" oct="4" pname="e"/>
+                        </ligature>
+                        <note xml:id="norcx7b1" dur="semibrevis" oct="4" pname="g"/>
+                        <dot xml:id="do4c76g1" form="div"/>
+                         <barLine xml:id="b7anrqh" form="dashed"/>
+                        <note xml:id="n2q8b7g" dur="semibrevis" num="2" numbase="3" oct="4" pname="g"/>
+                        <dot xml:id="dlhyk8" form="aug"/>
+                        <note xml:id="nudo2lp1" dur="minima" oct="4" pname="f"/>
+                        <note xml:id="n5y2f6l1" dur="semibrevis" oct="4" pname="d"/>
+                        <barLine xml:id="b4ejrqy1" form="dashed"/>
+                        <ligature xml:id="lkjc71c1" form="obliqua">
+                           <note xml:id="nuvi4pv2" dur="semibrevis" oct="4" pname="e"/>
+                           <note xml:id="nva72n81" dur="semibrevis" oct="4" pname="c"/>
+                        </ligature>
+                        <note xml:id="nunmx8h1" dur="semibrevis" num="2" numbase="3" oct="4" pname="f"/>
+                        <dot xml:id="d92tb5w2" form="aug"/>
+                        <note xml:id="ntthoa1" dur="minima" oct="4" pname="e" stem.dir="up"/>
+                        <!-- B wird durch P. aug. + M zuvor imperfiziert. -->
+                        <note xml:id="nsrqkrh1" dur="brevis" dur.quality="imperfecta" oct="4" pname="g"/>
+                        <barLine xml:id="bhnmqkv1" form="dashed"/>
+                        <note xml:id="nmzjlpi1" dur="semibrevis" oct="4" pname="g"/>
+                        <rest xml:id="rpo45ky1" dur="semibrevis"/>
+                        <rest xml:id="rvovgkg1" dur="semibrevis"/>
+                        <barLine xml:id="belrk3p2" form="dashed"/>
+                     </layer>
+                  </staff>
+                  <staff xml:id="sj33fgp2" n="3">
+                     <layer xml:id="ltdfh6a1">
+                        <!-- Proportion in the beginning because of: Crescit in duplo -->
+                        <proport xml:id="pq2s638" num="1" numbase="2"/>
+                        <note xml:id="nl26etn1" dur="brevis" dur.quality="imperfecta" oct="4" pname="c"/>
+                        <note xml:id="n1v4l3b1" dur="semibrevis" oct="4" pname="c"/>
+                        <barLine xml:id="bxk501c1" form="dashed"/>
+                        <note xml:id="ne85ajk2" dur="brevis" dur.quality="imperfecta" oct="3" pname="b"/>
+                        <note xml:id="n2k3vx31" dur="semibrevis" oct="3" pname="a"/>
+                        <barLine xml:id="bzoskld1" form="dashed"/>
+                        <note xml:id="n5o4uli2" dur="minima" oct="4" pname="c"/>
+                        <note xml:id="n5tivpq1" dur="minima" oct="4" pname="d" stem.dir="up"/>
+                        <ligature xml:id="l3463z71" form="recta">
+                           <note xml:id="n1gd2ub1" dur="semibrevis" oct="4" pname="e"/>
+                           <note xml:id="nr69r3s2" dur="semibrevis" oct="4" pname="f"/>
+                        </ligature>
+                        <barLine xml:id="b7i2yng" form="dashed"/>
+                     </layer>
+                  </staff>
+                  <staff xml:id="sirse911" n="4">
+                     <layer xml:id="ljlxrpd">
+                        <ligature xml:id="l2y0cxv2" form="recta">
+                           <note xml:id="nxf7h8u2" dur="longa" oct="3" pname="c"/>
+                           <note xml:id="n7lo1tp2" dur="brevis" dur.quality="imperfecta" oct="3" pname="g"/>
+                        </ligature>
+                        <!-- SB imperfiziert B. Sonst macht der folgende P. aug. Probleme. -->
+                        <note xml:id="n4gas8j2" dur="semibrevis" oct="3" pname="g"/>
+                        <barLine xml:id="b98uyre" form="dashed"/>
+                        <ligature xml:id="l81qe8a1" form="recta">
+                           <note xml:id="ngiung9" dur="semibrevis" oct="3" pname="e"/>
+                           <note xml:id="nzv68hv2" dur="semibrevis" num="2" numbase="3" oct="3" pname="f"/>
+                        </ligature>
+                        <dot xml:id="d5clbks2" form="aug"/>
+                        <note xml:id="nwqknqh" dur="minima" oct="3" pname="g" stem.dir="up"/>
+                        <barLine xml:id="b7d2ju3" form="dashed"/>
+                        <!-- Colorierung zeigt hier Imperfektion. SB sind schon imperfekt und ändern sich daher nicht. Sesquialtera nur bei regulär imperfekten Noten -->
+                        <ligature xml:id="l5ktvb51">
+                           <note xml:id="nnnfqxz1" colored="true" dur="semibrevis" lig="obliqua" oct="3" pname="a"/>
+                           <note xml:id="nyfa77p2" colored="true" dur="semibrevis" oct="3" pname="g"/>
+                           <note xml:id="nck8a651" colored="true" dur="brevis" dur.quality="imperfecta" lig="recta" oct="4" pname="c"/>
+                           <note xml:id="nvbsn5v2" colored="true" dur="brevis" dur.quality="imperfecta" oct="4" pname="d"/>
+                        </ligature>
+                        <barLine xml:id="bdwglmb" form="dashed"/>
+                     </layer>
+                  </staff>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Mensural.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Mensural.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Salve, Regina misericordiae</title>
+            <composer>
+               <persName>Guillaume Dufay</persName>
+            </composer>
+            <respStmt resp="encoder">
+               <persName>Sophie Stremel</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt/>
+      </fileDesc>
+      <encodingDesc xml:id="eb6wos5">
+         <appInfo xml:id="a86guze1">
+            <application xml:id="a97l2wv1" enddate="2025-01-14T14:51:09" startdate="2025-01-14T12:48:43" version="1.2.0">
+               <name xml:id="nbpovcr2">mei-friend</name>
+               <p xml:id="p10nhoe1">First edit by mei-friend 1.2.0, 17 December 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+ <music xml:id="mplvbe41">
+    <body xml:id="bio8ax6">
+      <mdiv xml:id="m3ais66">
+        <score xml:id="sgw9c19">
+          <scoreDef xml:id="s4m6did">
+            <staffGrp xml:id="spr2zv11">
+              <staffDef xml:id="sgxxktz1" clef.line="1" clef.shape="C" lines="5" mensur.sign="O" n="1" notationtype="mensural.white" modusmaior="2" modusminor="2" tempus="3" prolatio="2">
+               <label xml:id="lqveech">Cantus</label>
+               </staffDef>
+              <staffDef xml:id="szmgry3" clef.line="4" clef.shape="C" lines="5" mensur.sign="O" n="2" notationtype="mensural.white" modusmaior="2" modusminor="2" tempus="3" prolatio="2">
+               <label xml:id="lv7oae71">Contratenor</label>
+               </staffDef>
+              <staffDef xml:id="s2yzs5r2" clef.line="4" clef.shape="C" lines="5" mensur.sign="O" n="3" notationtype="mensural.white" modusmaior="2" modusminor="2" tempus="3" prolatio="2">
+               <label xml:id="lc8a7f91">Tenor</label>
+               </staffDef>
+              <staffDef xml:id="sm5yu3e1" clef.line="3" clef.shape="F" lines="5" mensur.sign="O" n="4" notationtype="mensural.white" modusmaior="2" modusminor="2" tempus="3" prolatio="2">
+               <label xml:id="lyvyfpo1">Bassus</label>
+               </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="so5wcs91">
+            <staff xml:id="sdt0sop1" n="1">
+              <layer xml:id="lrhjlj11">
+                <ligature xml:id="l7xrc6w1" form="obliqua">
+                   <note xml:id="nvq3g96" dur="longa" oct="4" pname="a">
+                      <verse xml:id="v0g21hi2">
+                         <syl xml:id="sha45cm1" con="d" wordpos="i">Re</syl>
+                      </verse>
+                   </note>
+                   <note xml:id="n9e8aaq1" dur="brevis" dur.quality="imperfecta" oct="4" pname="g"/>
+                </ligature>
+                <note xml:id="nlcio821" dur="semibrevis" oct="4" pname="f">
+                   <verse xml:id="vh6z9wc1">
+                      <syl xml:id="s0ssdgr2" con="d" wordpos="m">gi</syl>
+                   </verse>
+                 </note>
+                 <barLine form="dashed"/>
+                <note xml:id="nwjzvy1" dur="minima" oct="4" pname="g"/>
+                <note xml:id="ngoyp0u2" dur="minima" num="2" numbase="3" oct="4" pname="e"/>
+                <dot xml:id="daai1nk1" form="aug"/>
+                <note xml:id="nhhu047" dur="semiminima" oct="4" pname="d"/>
+                <note xml:id="n6spwm7" dur="semibrevis" oct="4" pname="d"/>
+                <note xml:id="nijpi91" dur="minima" oct="4" pname="c"/>
+                 <barLine form="dashed"/>
+                <note xml:id="nsxhpdt2" dur="brevis" oct="4" pname="d">
+                   <verse xml:id="vpold33">
+                      <syl xml:id="s9s0r2j1" wordpos="t">na</syl>
+                   </verse>
+                </note>
+					<barLine form="dashed"/>
+              </layer>
+            </staff>
+             <staff xml:id="s4a1aww2" n="2">
+              <layer xml:id="locdd0s2">
+                  <ligature xml:id="lb5xctj2" form="recta">
+                   <note xml:id="nn75mj7" dur="brevis" oct="4" pname="e"/>
+                   <note xml:id="nrgd3b71" dur="brevis" oct="4" pname="f"/>
+                </ligature>
+                 <barLine form="dashed"/>
+                <ligature xml:id="l9q67lr2" form="obliqua">
+                   <note xml:id="n06bo4a" dur="semibrevis" oct="4" pname="e"/>
+                   <note xml:id="nbtayo91" dur="semibrevis" oct="4" pname="c"/>
+                </ligature>
+                 <note xml:id="nsyz3pi2" dur="semibrevis" oct="3" pname="a"/>
+                 <barLine form="dashed"/>
+                 <note xml:id="n7ret1x2" dur="minima" oct="3" pname="g"/>
+                 <note xml:id="nk3th21" dur="minima" oct="3" pname="a"/>
+                  <note xml:id="nw1v8b71" dur="minima" oct="4" pname="c" stem.dir="up"/>
+                  <note xml:id="nuxphhv2" dur="semibrevis" oct="3" pname="a"/>
+                 <note xml:id="nd90mpm1" dur="minima" oct="3" pname="a"/>
+                 <barLine form="dashed"/>
+                 <note xml:id="nev3dzx2" dur="semibrevis" oct="3" pname="f"/>
+                 <rest dur="semibrevis"/>
+              </layer>
+            </staff>
+              <staff xml:id="s2qkyq51" n="3">
+              <layer xml:id="lbt45vm1">
+                 <ligature xml:id="l56kifm1" form="recta">
+                    <note xml:id="nlot8uf1" dur="brevis" oct="3" pname="a">
+                    <verse xml:id="v94s5jf1">
+                         <syl xml:id="spwbvp51" con="d" wordpos="i">Re</syl>
+                      </verse>
+                    </note>
+                    <note xml:id="njhchr21" dur="brevis" dur.quality="imperfecta" oct="4" pname="d"/>
+                 </ligature>
+                 <note xml:id="nyyhgnz1" dur="minima" oct="4" pname="c" stem.dir="up"/>
+                 <note xml:id="nuhah5k2" dur="minima" oct="4" pname="d" stem.dir="up"/>
+                 <dot xml:id="d89b05i2" form="div"/>
+                 <barLine form="dashed"/>
+                 <note xml:id="nzof8so2" dur="brevis" dur.quality="imperfecta" oct="4" pname="e">
+                    <verse xml:id="v8ku4811">
+                         <syl xml:id="s66knb31" con="d" wordpos="m">gi</syl>
+                      </verse>
+                    </note>
+                 <note xml:id="nhw5mgm2" dur="semibrevis" oct="4" pname="d"/>
+                 <barLine form="dashed"/>
+                 <note xml:id="nu3t205" dur="minima" oct="3" pname="b" stem.dir="up"/>
+                 <note xml:id="n2c3kw61" dur="minima" oct="4" pname="c" stem.dir="up"/>
+                 <note xml:id="nzesl4r1" dur="minima" oct="3" pname="a" stem.dir="up"/>
+                 <note xml:id="njdjxsq1" dur="minima" oct="3" pname="f" stem.dir="up"/>
+                 <note xml:id="n79m1s71" dur="semibrevis" oct="3" pname="e" stem.dir="up"/>
+                 <barLine form="dashed"/>
+                 <note xml:id="n1v2s3i2" dur="brevis" oct="3" pname="d" stem.dir="up">
+                    <verse xml:id="vom4n4m2">
+                         <syl xml:id="s3kx1do1" wordpos="t">na</syl>
+                      </verse>
+                    </note>
+                 <dot xml:id="df0n4w2" form="div"/>
+              </layer>
+            </staff>
+              <staff xml:id="syi4xin2" n="4">
+              <layer xml:id="l7ulmxc1">
+                 <ligature xml:id="l2kzg1n1" form="obliqua">
+                   <note xml:id="n6l7nc1" dur="brevis" oct="3" pname="a">
+                    <verse xml:id="vhf8kr3">
+                         <syl xml:id="slj95o5" con="d" wordpos="i">Re</syl>
+                      </verse>
+                    </note>
+                   <note xml:id="nd756pn1" dur="brevis" dur.quality="imperfecta" oct="3" pname="d"/>
+                </ligature>
+                 <note xml:id="nrrnfgw1" dur="minima" num="2" numbase="3" oct="3" pname="f"/>
+                 <dot xml:id="d30dqp51" form="aug"/>
+                 <note xml:id="nlzhe2u1" dur="semiminima" oct="3" pname="e"/>
+                 <barLine form="dashed"/>
+                 <note xml:id="nz9eot51" dur="brevis" dur.quality="imperfecta" oct="3" pname="c">
+                 		<verse xml:id="vimpweo1">
+                         <syl xml:id="s6fsx0m2" con="d" wordpos="m">gi</syl>
+                 		</verse>
+                 </note>
+                 <note xml:id="n5kj3g6" dur="semibrevis" oct="3" pname="d"/>
+                 <barLine form="dashed"/>
+                 <note xml:id="njf8ri7" dur="minima" oct="3" pname="e"/>
+                 <note xml:id="npb53ff1" dur="semibrevis" oct="2" pname="a"/>
+                 <note xml:id="ng5e58" dur="minima" oct="3" pname="d"/>
+                 <note xml:id="njqfhk1" dur="semibrevis" oct="2" pname="a"/>
+                 <barLine form="dashed"/>
+                 <note xml:id="n7gbet41" dur="brevis" dur.quality="imperfecta" oct="3" pname="a">
+                 		<verse xml:id="vxtyt8f">
+                         <syl xml:id="sgl9x6q1" wordpos="t">na</syl>
+                      </verse>
+                 </note>
+                 <note pname="f" oct="3" dur="semibrevis"/>
+                 <barLine form="dashed"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+ </music>
+</mei>
