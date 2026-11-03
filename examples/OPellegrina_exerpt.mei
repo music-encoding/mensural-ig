@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Chanson cordiforme example from fol 16v</title>
+        <respStmt>
+          <persName role="creator">Anna</persName>
+        </respStmt>
+      </titleStmt>
+      <pubStmt>
+        <date isodate="2026-11-03"/>
+      </pubStmt>
+    </fileDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef n="1" lines="5" notationtype="mensural.white" clef.shape="C" clef.line="2" tempus="2" prolatio="2" />
+            </staffGrp>
+          </scoreDef>
+          <section>
+              <staff n="1">
+                <layer n="1">
+                  <rest dur="brevis" loc="2" />
+                  <ligature>
+                     <note pname="a" oct="3" dur="semibrevis" colored="true" dur.quality="imperfecta"/>
+                     <note pname="d" oct="4" dur="semibrevis" colored="true" dur.quality="imperfecta"/>
+                  </ligature>
+                  <note pname="c" oct="4" dur="brevis" colored="true" dur.quality="imperfecta"/>
+                  <note pname="d" oct="4" dur="minima" colored="true" dur.quality="imperfecta"/>
+                  <note pname="e" oct="4" dur="minima" colored="true" dur.quality="imperfecta"/>
+                  <note pname="f" oct="4" dur="minima" colored="true" dur.quality="imperfecta"/>
+                  <note pname="g" oct="4" dur="minima" colored="true" dur.quality="imperfecta"/>
+                  <note pname="e" oct="4" dur="semibrevis" colored="true" dur.quality="imperfecta"/>
+                  <note pname="d" oct="4" dur="brevis" colored="true" dur.quality="imperfecta"/>
+                </layer>
+              </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
