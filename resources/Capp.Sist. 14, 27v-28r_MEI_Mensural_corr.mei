@@ -160,9 +160,10 @@
                         <!-- Colorierung zeigt hier Imperfektion. SB sind schon imperfekt und ändern sich daher nicht. Sesquialtera nur bei regulär imperfekten Noten -->
                         <ligature xml:id="l5ktvb51">
                            <note xml:id="nnnfqxz1" colored="true" dur="semibrevis" lig="obliqua" oct="3" pname="a"/>
-                           <note xml:id="nyfa77p2" colored="true" dur="semibrevis" oct="3" pname="g"/>
+                           <note xml:id="nyfa77p2" colored="true" dur="semibrevis" lig="obliqua" oct="3" pname="g"/>
                            <note xml:id="nck8a651" colored="true" dur="brevis" dur.quality="imperfecta" lig="recta" oct="4" pname="c"/>
-                           <note xml:id="nvbsn5v2" colored="true" dur="brevis" dur.quality="imperfecta" oct="4" pname="d"/>
+                           <note xml:id="nvbsn5v2" colored="true" dur="brevis" dur.quality="imperfecta" lig="obliqua" oct="4" pname="d"/>
+                           <note xml:id="n0j533q1" dur="brevis" dur.quality="imperfecta" lig="obliqua" oct="4" pname="c"/>
                         </ligature>
                         <barLine xml:id="bdwglmb" form="dashed"/>
                      </layer>
